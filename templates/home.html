@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+{% if user.is_authenticated %}
+<div style="padding: 70px">
+Bonjour {{ user.username }} !
+<div style="padding-top: 70px">
+        <p>Vou pouvez importer votre manuel par ici:</p>
+        <button><a href="/upload">Importer</a></button>
+</div>
+
+</div>
+
+<div style="padding-top: 315px">
+<p><a href="{% url 'logout' %}">Déconnexion</a></p>
+<p><a href="{% url 'password_reset' %}">Restaurer votre mot de passe</a></p>
+{% else %}
+<p>You are not logged in</p>
+<a href="{% url 'login' %}">Log In</a>
+{% endif %}
+</div>
+</div>
+{% endblock %}

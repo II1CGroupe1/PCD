@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: nour.jebali@ensi-uma.tn
+Date: Sat, 01 May 2021 03:45:38 -0000
+Message-ID: <161984073871.12496.4240057257079486109@Nours>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/accounts/reset/MQ/alyd82-d95ca7e1fe22b307e7e01030fd3984bd/
+
+Your username, in case you’ve forgotten: assistant
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

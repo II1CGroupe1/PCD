@@ -1,0 +1,232 @@
+{"type":"node","id":"0","labels":["ct_skill"],"properties":{"name":"CT Skills"}}
+{"type":"node","id":"1","labels":["cs_domain"],"properties":{"name":"CS Domaine"}}
+{"type":"node","id":"2","labels":["skill"],"properties":{"name":"Skills"}}
+{"type":"node","id":"3","labels":["ct_skill"],"properties":{"name":"Abstraction"}}
+{"type":"node","id":"4","labels":["ct_skill"],"properties":{"name":"Algorithmic Thinking"}}
+{"type":"node","id":"5","labels":["ct_skill"],"properties":{"name":"Decomposition"}}
+{"type":"node","id":"6","labels":["ct_skill"],"properties":{"name":"Evaluation"}}
+{"type":"node","id":"7","labels":["ct_skill"],"properties":{"name":"Generalisation"}}
+{"type":"node","id":"8","labels":["cs_domain"],"properties":{"name":"Algorithms and programming"}}
+{"type":"node","id":"9","labels":["cs_domain"],"properties":{"name":"Data, data structures and representations"}}
+{"type":"node","id":"10","labels":["cs_domain"],"properties":{"name":"Computer processes and hardware"}}
+{"type":"node","id":"11","labels":["cs_domain"],"properties":{"name":"Communication and networking"}}
+{"type":"node","id":"12","labels":["cs_domain"],"properties":{"name":"Interaction,systems and society"}}
+{"type":"node","id":"20","labels":["exercice"],"properties":{"name":"How many routes"}}
+{"type":"node","id":"21","labels":["exercice"],"properties":{"name":"Bird house"}}
+{"type":"node","id":"22","labels":["exercice"],"properties":{"name":"Sorting branches"}}
+{"type":"node","id":"23","labels":["exercice"],"properties":{"name":"The way home"}}
+{"type":"node","id":"24","labels":["exercice"],"properties":{"name":"Small program"}}
+{"type":"node","id":"25","labels":["exercice"],"properties":{"name":"Dancing man"}}
+{"type":"node","id":"26","labels":["exercice"],"properties":{"name":"Sudoku"}}
+{"type":"node","id":"27","labels":["exercice"],"properties":{"name":"Worm"}}
+{"type":"node","id":"28","labels":["exercice"],"properties":{"name":"Strawberry hunt"}}
+{"type":"node","id":"29","labels":["exercice"],"properties":{"name":"Colour Paths"}}
+{"type":"node","id":"30","labels":["exercice"],"properties":{"name":"Parking Lot"}}
+{"type":"node","id":"31","labels":["exercice"],"properties":{"name":"Message service"}}
+{"type":"node","id":"32","labels":["exercice"],"properties":{"name":"Beaver tournament"}}
+{"type":"node","id":"33","labels":["exercice"],"properties":{"name":"Grandmother's jam"}}
+{"type":"node","id":"34","labels":["exercice"],"properties":{"name":"Five sticks"}}
+{"type":"node","id":"35","labels":["exercice"],"properties":{"name":"Sticks and shields"}}
+{"type":"node","id":"36","labels":["exercice"],"properties":{"name":"Erase walls"}}
+{"type":"node","id":"37","labels":["exercice"],"properties":{"name":"News editing"}}
+{"type":"node","id":"38","labels":["exercice"],"properties":{"name":"Roundabout city"}}
+{"type":"node","id":"39","labels":["exercice"],"properties":{"name":"Brackets"}}
+{"type":"node","id":"40","labels":["exercice"],"properties":{"name":"Balls"}}
+{"type":"node","id":"41","labels":["exercice"],"properties":{"name":"Cipher wheel"}}
+{"type":"node","id":"42","labels":["exercice"],"properties":{"name":"Painting wallpaper"}}
+{"type":"node","id":"43","labels":["exercice"],"properties":{"name":"Railroad"}}
+{"type":"node","id":"44","labels":["exercice"],"properties":{"name":"Commuting"}}
+{"type":"node","id":"45","labels":["exercice"],"properties":{"name":"Candy maze"}}
+{"type":"node","id":"46","labels":["exercice"],"properties":{"name":"Book-sharing club"}}
+{"type":"node","id":"47","labels":["exercice"],"properties":{"name":"One too many"}}
+{"type":"node","id":"48","labels":["exercice"],"properties":{"name":"Sports"}}
+{"type":"node","id":"49","labels":["exercice"],"properties":{"name":"Stream"}}
+{"type":"node","id":"50","labels":["exercice"],"properties":{"name":"Super hero"}}
+{"type":"node","id":"51","labels":["exercice"],"properties":{"name":"Digit recognition"}}
+{"type":"node","id":"52","labels":["exercice"],"properties":{"name":"Arabot's walk"}}
+{"type":"node","id":"53","labels":["exercice"],"properties":{"name":"Levenshtein distance"}}
+{"type":"node","id":"54","labels":["exercice"],"properties":{"name":"Tunnels of the homestead "}}
+{"type":"node","id":"55","labels":["exercice"],"properties":{"name":"dam"}}
+{"type":"node","id":"56","labels":["exercice"],"properties":{"name":"Soda shop"}}
+{"type":"node","id":"57","labels":["exercice"],"properties":{"name":"Cost reduction"}}
+{"type":"node","id":"58","labels":["exercice"],"properties":{"name":"Icon image compression"}}
+{"type":"node","id":"59","labels":["exercice"],"properties":{"name":"Robot"}}
+{"type":"node","id":"60","labels":["exercice"],"properties":{"name":"Funtime School"}}
+{"type":"node","id":"61","labels":["exercice"],"properties":{"name":"Wash the uniforms"}}
+{"type":"node","id":"62","labels":["exercice"],"properties":{"name":"Perfect Partners "}}
+{"type":"node","id":"63","labels":["exercice"],"properties":{"name":"Downloads"}}
+{"id":"0","type":"relationship","label":"devided","start":{"id":"2","labels":["skill"]},"end":{"id":"0","labels":["ct_skill"]}}
+{"id":"1","type":"relationship","label":"devided","start":{"id":"2","labels":["skill"]},"end":{"id":"1","labels":["cs_domain"]}}
+{"id":"2","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"3","labels":["ct_skill"]}}
+{"id":"3","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"4","labels":["ct_skill"]}}
+{"id":"4","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"5","labels":["ct_skill"]}}
+{"id":"5","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"6","labels":["ct_skill"]}}
+{"id":"6","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"7","labels":["ct_skill"]}}
+{"id":"7","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"8","labels":["cs_domain"]}}
+{"id":"8","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"9","labels":["cs_domain"]}}
+{"id":"9","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"10","labels":["cs_domain"]}}
+{"id":"10","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"11","labels":["cs_domain"]}}
+{"id":"11","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"12","labels":["cs_domain"]}}
+{"id":"100","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"22",labels":["Bird house"]"}}
+{"id":"101","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"23",labels":["Sorting branches"]"}}
+{"id":"102","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"25",labels":["Small program"]"}}
+{"id":"103","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"26",labels":["Dancing man"]"}}
+{"id":"104","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"27",labels":["Sudoku"]"}}
+{"id":"105","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"28",labels":["Worm"]"}}
+{"id":"106","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"29",labels":["Strawberry hunt"]"}}
+{"id":"107","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"30",labels":["Colour Paths"]"}}
+{"id":"108","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"32",labels":["Message service"]"}}
+{"id":"109","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"33",labels":["Beaver tournament"]"}}
+{"id":"110","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"34",labels":["Grandmother's jam"]"}}
+{"id":"111","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"35",labels":["Five sticks"]"}}
+{"id":"112","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"37",labels":["Erase walls"]"}}
+{"id":"113","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"38",labels":["News editing"]"}}
+{"id":"114","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"39",labels":["Roundabout city"]"}}
+{"id":"115","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"41",labels":["Balls"]"}}
+{"id":"116","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"43",labels":["Painting wallpaper"]"}}
+{"id":"117","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"44",labels":["Railroad"]"}}
+{"id":"118","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"45",labels":["Commuting"]"}}
+{"id":"119","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"46",labels":["Candy maze"]"}}
+{"id":"120","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"47",labels":["Book-sharing club"]"}}
+{"id":"121","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"49",labels":["Sports"]"}}
+{"id":"122","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"50",labels":["Stream"]"}}
+{"id":"123","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"51",labels":["Super hero"]"}}
+{"id":"124","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"52",labels":["Digit recognition"]"}}
+{"id":"125","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"53",labels":["Arabot's walk"]"}}
+{"id":"126","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"55",labels":["Tunnels of the homestead "]"}}
+{"id":"127","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"56",labels":["dam"]"}}
+{"id":"128","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"57",labels":["Soda shop"]"}}
+{"id":"129","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"59",labels":["Icon image compression"]"}}
+{"id":"130","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"60",labels":["Robot"]"}}
+{"id":"131","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"61",labels":["Funtime School"]"}}
+{"id":"132","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"62",labels":["Wash the uniforms"]"}}
+{"id":"133","type":"relationship","label":"Treated by","start":{"id":"3","labels":["Abstraction"]},"end":{"id":"63",labels":["Perfect Partners "]"}}
+{"id":"150","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"21",labels":["How many routes"]"}}
+{"id":"151","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"22",labels":["Bird house"]"}}
+{"id":"152","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"23",labels":["Sorting branches"]"}}
+{"id":"153","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"24",labels":["The way home"]"}}
+{"id":"154","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"25",labels":["Small program"]"}}
+{"id":"155","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"26",labels":["Dancing man"]"}}
+{"id":"156","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"27",labels":["Sudoku"]"}}
+{"id":"157","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"28",labels":["Worm"]"}}
+{"id":"158","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"29",labels":["Strawberry hunt"]"}}
+{"id":"159","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"30",labels":["Colour Paths"]"}}
+{"id":"160","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"31",labels":["Parking Lot"]"}}
+{"id":"161","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"33",labels":["Beaver tournament"]"}}
+{"id":"162","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"34",labels":["Grandmother's jam"]"}}
+{"id":"163","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"35",labels":["Five sticks"]"}}
+{"id":"164","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"36",labels":["Sticks and shields"]"}}
+{"id":"165","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"37",labels":["Erase walls"]"}}
+{"id":"166","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"38",labels":["News editing"]"}}
+{"id":"167","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"39",labels":["Roundabout city"]"}}
+{"id":"168","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"40",labels":["Brackets"]"}}
+{"id":"169","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"41",labels":["Balls"]"}}
+{"id":"170","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"42",labels":["Cipher wheel"]"}}
+{"id":"171","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"43",labels":["Painting wallpaper"]"}}
+{"id":"172","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"44",labels":["Railroad"]"}}
+{"id":"173","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"45",labels":["Commuting"]"}}
+{"id":"174","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"47",labels":["Book-sharing club"]"}}
+{"id":"175","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"48",labels":["One too many"]"}}
+{"id":"176","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"49",labels":["Sports"]"}}
+{"id":"177","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"51",labels":["Super hero"]"}}
+{"id":"178","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"53",labels":["Arabot's walk"]"}}
+{"id":"179","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"54",labels":["Levenshtein distance"]"}}
+{"id":"180","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"55",labels":["Tunnels of the homestead "]"}}
+{"id":"181","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"56",labels":["dam"]"}}
+{"id":"182","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"57",labels":["Soda shop"]"}}
+{"id":"183","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"61",labels":["Funtime School"]"}}
+{"id":"184","type":"relationship","label":"Treated by","start":{"id":"4","labels":["Algorithmic Thinking"]},"end":{"id":"62",labels":["Wash the uniforms"]"}}
+{"id":"200","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"21",labels":["How many routes"]"}}
+{"id":"201","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"22",labels":["Bird house"]"}}
+{"id":"202","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"24",labels":["The way home"]"}}
+{"id":"203","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"28",labels":["Worm"]"}}
+{"id":"204","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"30",labels":["Colour Paths"]"}}
+{"id":"205","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"31",labels":["Parking Lot"]"}}
+{"id":"206","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"35",labels":["Five sticks"]"}}
+{"id":"207","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"36",labels":["Sticks and shields"]"}}
+{"id":"208","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"40",labels":["Brackets"]"}}
+{"id":"209","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"48",labels":["One too many"]"}}
+{"id":"210","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"50",labels":["Stream"]"}}
+{"id":"211","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"52",labels":["Digit recognition"]"}}
+{"id":"212","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"58",labels":["Cost reduction"]"}}
+{"id":"213","type":"relationship","label":"Treated by","start":{"id":"5","labels":["Decomposition"]},"end":{"id":"60",labels":["Robot"]"}}
+{"id":"250","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"21",labels":["How many routes"]"}}
+{"id":"251","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"24",labels":["The way home"]"}}
+{"id":"252","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"25",labels":["Small program"]"}}
+{"id":"253","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"26",labels":["Dancing man"]"}}
+{"id":"254","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"27",labels":["Sudoku"]"}}
+{"id":"255","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"29",labels":["Strawberry hunt"]"}}
+{"id":"256","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"31",labels":["Parking Lot"]"}}
+{"id":"257","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"32",labels":["Message service"]"}}
+{"id":"258","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"33",labels":["Beaver tournament"]"}}
+{"id":"259","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"34",labels":["Grandmother's jam"]"}}
+{"id":"260","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"36",labels":["Sticks and shields"]"}}
+{"id":"261","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"37",labels":["Erase walls"]"}}
+{"id":"262","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"38",labels":["News editing"]"}}
+{"id":"263","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"39",labels":["Roundabout city"]"}}
+{"id":"264","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"40",labels":["Brackets"]"}}
+{"id":"265","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"41",labels":["Balls"]"}}
+{"id":"266","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"42",labels":["Cipher wheel"]"}}
+{"id":"267","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"43",labels":["Painting wallpaper"]"}}
+{"id":"268","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"44",labels":["Railroad"]"}}
+{"id":"269","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"45",labels":["Commuting"]"}}
+{"id":"270","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"46",labels":["Candy maze"]"}}
+{"id":"271","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"47",labels":["Book-sharing club"]"}}
+{"id":"272","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"48",labels":["One too many"]"}}
+{"id":"273","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"49",labels":["Sports"]"}}
+{"id":"274","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"50",labels":["Stream"]"}}
+{"id":"275","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"51",labels":["Super hero"]"}}
+{"id":"276","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"52",labels":["Digit recognition"]"}}
+{"id":"277","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"53",labels":["Arabot's walk"]"}}
+{"id":"278","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"54",labels":["Levenshtein distance"]"}}
+{"id":"279","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"55",labels":["Tunnels of the homestead "]"}}
+{"id":"280","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"56",labels":["dam"]"}}
+{"id":"281","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"57",labels":["Soda shop"]"}}
+{"id":"282","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"58",labels":["Cost reduction"]"}}
+{"id":"283","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"59",labels":["Icon image compression"]"}}
+{"id":"284","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"60",labels":["Robot"]"}}
+{"id":"285","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"61",labels":["Funtime School"]"}}
+{"id":"286","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"62",labels":["Wash the uniforms"]"}}
+{"id":"287","type":"relationship","label":"Treated by","start":{"id":"6","labels":["Evaluation"]},"end":{"id":"63",labels":["Perfect Partners "]"}}
+{"id":"300","type":"relationship","label":"Treated by","start":{"id":"7","labels":["Generalisation"]},"end":{"id":"32",labels":["Message service"]"}}
+{"id":"301","type":"relationship","label":"Treated by","start":{"id":"7","labels":["Generalisation"]},"end":{"id":"42",labels":["Cipher wheel"]"}}
+{"id":"302","type":"relationship","label":"Treated by","start":{"id":"7","labels":["Generalisation"]},"end":{"id":"46",labels":["Candy maze"]"}}
+{"id":"303","type":"relationship","label":"Treated by","start":{"id":"7","labels":["Generalisation"]},"end":{"id":"54",labels":["Levenshtein distance"]"}}
+{"id":"304","type":"relationship","label":"Treated by","start":{"id":"7","labels":["Generalisation"]},"end":{"id":"58",labels":["Cost reduction"]"}}
+{"id":"305","type":"relationship","label":"Treated by","start":{"id":"7","labels":["Generalisation"]},"end":{"id":"59",labels":["Icon image compression"]"}}
+{"id":"306","type":"relationship","label":"Treated by","start":{"id":"7","labels":["Generalisation"]},"end":{"id":"63",labels":["Perfect Partners "]"}}
+{"id":"350","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"23",labels":["Sorting branches"]"}}
+{"id":"351","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"24",labels":["The way home"]"}}
+{"id":"352","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"25",labels":["Small program"]"}}
+{"id":"353","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"34",labels":["Grandmother's jam"]"}}
+{"id":"354","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"35",labels":["Five sticks"]"}}
+{"id":"355","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"40",labels":["Brackets"]"}}
+{"id":"356","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"48",labels":["One too many"]"}}
+{"id":"357","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"50",labels":["Stream"]"}}
+{"id":"358","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"51",labels":["Super hero"]"}}
+{"id":"359","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"53",labels":["Arabot's walk"]"}}
+{"id":"360","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"54",labels":["Levenshtein distance"]"}}
+{"id":"361","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"56",labels":["dam"]"}}
+{"id":"362","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"59",labels":["Icon image compression"]"}}
+{"id":"363","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"61",labels":["Funtime School"]"}}
+{"id":"364","type":"relationship","label":"Treated by","start":{"id":"8","labels":["Algorithms and programming"]},"end":{"id":"62",labels":["Wash the uniforms"]"}}
+{"id":"400","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"22",labels":["Bird house"]"}}
+{"id":"401","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"29",labels":["Strawberry hunt"]"}}
+{"id":"402","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"31",labels":["Parking Lot"]"}}
+{"id":"403","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"33",labels":["Beaver tournament"]"}}
+{"id":"404","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"38",labels":["News editing"]"}}
+{"id":"405","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"41",labels":["Balls"]"}}
+{"id":"406","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"43",labels":["Painting wallpaper"]"}}
+{"id":"407","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"45",labels":["Commuting"]"}}
+{"id":"408","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"55",labels":["Tunnels of the homestead "]"}}
+{"id":"409","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"57",labels":["Soda shop"]"}}
+{"id":"410","type":"relationship","label":"Treated by","start":{"id":"9","labels":["Data, data structures and representations"]},"end":{"id":"60",labels":["Robot"]"}}
+{"id":"450","type":"relationship","label":"Treated by","start":{"id":"10","labels":["Computer processes and hardware"]},"end":{"id":"30",labels":["Colour Paths"]"}}
+{"id":"451","type":"relationship","label":"Treated by","start":{"id":"10","labels":["Computer processes and hardware"]},"end":{"id":"49",labels":["Sports"]"}}
+{"id":"452","type":"relationship","label":"Treated by","start":{"id":"10","labels":["Computer processes and hardware"]},"end":{"id":"58",labels":["Cost reduction"]"}}
+{"id":"453","type":"relationship","label":"Treated by","start":{"id":"11","labels":["Communication and networking"]},"end":{"id":"32",labels":["Message service"]"}}
+{"id":"453","type":"relationship","label":"Treated by","start":{"id":"11","labels":["Communication and networking"]},"end":{"id":"42",labels":["Cipher wheel"]"}}
+{"id":"453","type":"relationship","label":"Treated by","start":{"id":"12","labels":["Interactions, systems and society"]},"end":{"id":"27",labels":["Sudoku"]"}}
+{"id":"453","type":"relationship","label":"Treated by","start":{"id":"12","labels":["Interactions, systems and society"]},"end":{"id":"39",labels":["Roundabout city"]"}}
+{"id":"453","type":"relationship","label":"Treated by","start":{"id":"12","labels":["Interactions, systems and society"]},"end":{"id":"47",labels":["Book-sharing club"]"}}
+{"id":"453","type":"relationship","label":"Treated by","start":{"id":"12","labels":["Interactions, systems and society"]},"end":{"id":"63",labels":["Perfect Partners "]"}}

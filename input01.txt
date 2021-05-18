@@ -1,0 +1,13 @@
+{"type":"node","id":"0","labels":["ct_skill"],"properties":{"name":"CT Skills"}}
+{"type":"node","id":"1","labels":["cs_domain"],"properties":{"name":"CS Domaine"}}
+{"type":"node","id":"2","labels":["skill"],"properties":{"name":"Skills"}}
+{"type":"node","id":"3","labels":["ct_skill"],"properties":{"name":"Abstraction"}}
+{"type":"node","id":"4","labels":["ct_skill"],"properties":{"name":"Algorithmic Thinking"}}
+{"type":"node","id":"5","labels":["ct_skill"],"properties":{"name":"Decomposition"}}
+{"type":"node","id":"6","labels":["ct_skill"],"properties":{"name":"Evaluation"}}
+{"type":"node","id":"7","labels":["ct_skill"],"properties":{"name":"Generalisation"}}
+{"type":"node","id":"8","labels":["cs_domain"],"properties":{"name":"Algorithms and programming"}}
+{"type":"node","id":"9","labels":["cs_domain"],"properties":{"name":"Data, data structures and representations"}}
+{"type":"node","id":"10","labels":["cs_domain"],"properties":{"name":"Computer processes and hardware"}}
+{"type":"node","id":"11","labels":["cs_domain"],"properties":{"name":"Communication and networking"}}
+{"type":"node","id":"12","labels":["cs_domain"],"properties":{"name":"Interaction,systems and society"}}

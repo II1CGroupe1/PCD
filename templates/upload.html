@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Upload{% endblock %}
+
+{% block content %}
+
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main"
+<div style="padding: 70px">
+    <p>Importez votre manuel:</p>
+    <div style="padding-top: 70px">
+        <form  action ="#" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="document" id="document" lang="fr">
+
+            <input type="submit" value="Importer" name="submit">
+
+
+
+        </form>
+    </div>
+</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{"id":"0","type":"relationship","label":"devided","start":{"id":"2","labels":["skill"]},"end":{"id":"0","labels":["ct_skill"]}}
+{"id":"1","type":"relationship","label":"devided","start":{"id":"2","labels":["skill"]},"end":{"id":"1","labels":["cs_domain"]}}
+{"id":"2","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"3","labels":["ct_skill"]}}
+{"id":"3","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"4","labels":["ct_skill"]}}
+{"id":"4","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"5","labels":["ct_skill"]}}
+{"id":"5","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"6","labels":["ct_skill"]}}
+{"id":"6","type":"relationship","label":"compose","start":{"id":"0","labels":["ct_skill"]},"end":{"id":"7","labels":["ct_skill"]}}
+{"id":"7","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"8","labels":["cs_domain"]}}
+{"id":"8","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"9","labels":["cs_domain"]}}
+{"id":"9","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"10","labels":["cs_domain"]}}
+{"id":"10","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"11","labels":["cs_domain"]}}
+{"id":"11","type":"relationship","label":"compose","start":{"id":"1","labels":["cs_domain"]},"end":{"id":"12","labels":["cs_domain"]}}
